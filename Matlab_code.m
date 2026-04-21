@@ -19,15 +19,15 @@ figure;
 plot(t, x, 'LineWidth', 2);
 xlabel('Time (s)');
 ylabel('Displacement x (m)');
-title('Maglev Train Suspension Response - Displacement');
-grid on;
+title('Suspension Response vs Displacement');
+grid on
 
 figure;
 plot(t, v, 'LineWidth', 2);
 xlabel('Time (s)');
 ylabel('Velocity v (m/s)');
-title('Maglev Train Suspension Response - Velocity');
-grid on;
+title('Suspension Response vs Velocity');
+grid on
 
 figure;
 plot(x, v, 'LineWidth', 2);
